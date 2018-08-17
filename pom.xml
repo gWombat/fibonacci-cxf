@@ -19,6 +19,7 @@
         <servlet-api.version>3.1.0</servlet-api.version>
         <spring.version>5.0.4.RELEASE</spring.version>
         <wss4j.version>2.2.1</wss4j.version>
+        <jackson.version>2.9.6</jackson.version>
     </properties>
 
     <dependencies>
@@ -56,6 +57,13 @@
             <version>${servlet-api.version}</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
     </dependencies>
 
 </project>

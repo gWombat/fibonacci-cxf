@@ -4,9 +4,9 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
-@WebService
+//@WebService
 public interface FibonacciService {
 
-    @WebMethod(action = "Calculate the Fibonacci's suite value from the given index")
+    //@WebMethod(action = "Calculate the Fibonacci's suite value from the given index")
     long fibonacci(@WebParam(name = "index") int value);
 }
